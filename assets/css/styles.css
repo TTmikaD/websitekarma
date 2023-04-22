@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@500&family=Great+Vibes&family=Inspiration&family=Roboto:ital,wght@0,400;1,100&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #57606f;
+}
+
+.logo__main {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.logo__main::after {
+  content: ".";
+}
+
+.logo__aside {
+  background-color: #2f3542;
+  color: #ced6e0;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.logo__aside::before {
+  content: " + ";
+}
+
+header li:hover {
+  background-color: #2ed573;
+  transition: 0.7s;
+}/*# sourceMappingURL=styles.css.map */

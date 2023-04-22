@@ -1,0 +1,47 @@
+@import "./partials/minxin";
+@import "./partials/extend";
+@import "./partials/variables";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+// start header
+header {
+    background-color: #57606f;
+}
+
+.logo__main {
+    color: #ffffff;
+    text-transform: uppercase;
+
+    &::after {
+        content: ".";
+    }
+}
+
+.logo__aside {
+    background-color: #2f3542;
+    color: #ced6e0;
+    margin-left: 10px;
+    text-transform: uppercase;
+
+    &::before {
+        content: " + ";
+    }
+}
+
+header {
+    & li:hover {
+        background-color: #2ed573;
+        transition: 0.7s;
+    }
+}
+
+// end header
+
+// start nav 
+
+// end nav
